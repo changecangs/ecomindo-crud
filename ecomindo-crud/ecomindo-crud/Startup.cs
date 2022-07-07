@@ -12,6 +12,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ecomindo_crud.Model;
+using ecomindo_crud.Repositories;
 
 namespace ecomindo_crud
 {
@@ -31,6 +32,7 @@ namespace ecomindo_crud
               options
                 .UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
             );
+            services.AddScoped<IUnitOfWork,UnitOfWork>();
             services.AddControllers();
             services.AddSwaggerGen();
         }

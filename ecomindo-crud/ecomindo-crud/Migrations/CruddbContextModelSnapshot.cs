@@ -28,17 +28,16 @@ namespace ecomindo_crud.Migrations
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("DateDeleted")
-                        .HasColumnType("datetime2");
-
                     b.Property<DateTime>("DateModified")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
@@ -51,41 +50,40 @@ namespace ecomindo_crud.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("CompanyId")
-                        .HasColumnType("int");
-
-                    b.Property<Guid?>("CompanyId1")
+                    b.Property<Guid>("CompanyId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("DateCreated")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("DateDeleted")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("DateModified")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CompanyId1");
+                    b.HasIndex("CompanyId");
 
                     b.ToTable("Employees");
                 });
 
             modelBuilder.Entity("ecomindo_crud.Model.Employee", b =>
                 {
-                    b.HasOne("ecomindo_crud.Model.Company", null)
-                        .WithMany("employees")
-                        .HasForeignKey("CompanyId1");
+                    b.HasOne("ecomindo_crud.Model.Company", "Company")
+                        .WithMany("Employees")
+                        .HasForeignKey("CompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Company");
                 });
 
             modelBuilder.Entity("ecomindo_crud.Model.Company", b =>
                 {
-                    b.Navigation("employees");
+                    b.Navigation("Employees");
                 });
 #pragma warning restore 612, 618
         }

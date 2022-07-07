@@ -6,16 +6,11 @@ C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-cru
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\ecomindo-crud.runtimeconfig.dev.json
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\ecomindo-crud.dll
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\ecomindo-crud.pdb
-C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\obj\Debug\netcoreapp3.1\ecomindo-crud.csproj.AssemblyReference.cache
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\obj\Debug\netcoreapp3.1\ecomindo-crud.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\obj\Debug\netcoreapp3.1\ecomindo-crud.AssemblyInfoInputs.cache
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\obj\Debug\netcoreapp3.1\ecomindo-crud.AssemblyInfo.cs
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\obj\Debug\netcoreapp3.1\ecomindo-crud.csproj.CoreCompileInputs.cache
-C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\obj\Debug\netcoreapp3.1\ecomindo-crud.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\obj\Debug\netcoreapp3.1\ecomindo-crud.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\obj\Debug\netcoreapp3.1\staticwebassets\ecomindo-crud.StaticWebAssets.Manifest.cache
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\obj\Debug\netcoreapp3.1\ecomindo-crud.RazorTargetAssemblyInfo.cache
@@ -65,3 +60,8 @@ C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-cru
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Irfan Dwi Kusuma\1_Irfan\repos\ecomindo-crud\ecomindo-crud\ecomindo-crud\obj\Debug\netcoreapp3.1\ecomindo-crud.MvcApplicationPartsAssemblyInfo.cs
